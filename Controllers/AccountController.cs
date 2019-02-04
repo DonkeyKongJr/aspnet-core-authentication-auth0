@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Auth0.Controllers
 {
-    [Route("[controller]/[action]")]
+    [Route("[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
